@@ -1,0 +1,21 @@
+{
+  "name": "dompdd-client",
+  "version": "1.1.0",
+  "description": "Client for DOMPDD Server",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "author": "AntoXa PRO <info@antoxa.pro>",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "axp-ts": "^1.4.5",
+    "yup": "^0.32.11"
+  }
+}
